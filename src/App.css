@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-image: url(./assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.App{
+  background-image: url(./assets/images/pokedex-sn.png);
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+h1{
+  margin: 0;
+  color: black;
+  text-transform: capitalize;
+}
+
+.change-pokemon{
+  background-color: yellow;
+  color: rgba(0, 140, 255, 0.847);
+  font-weight: 600;
+  position: absolute;
+  left: 8rem;
+  bottom:5.5rem;
+  border: 3px solid black;
+  width: 8rem;
+}
+button:hover {
+  border-color: #646cff;
+}
+.change-units{
+  background-color: orange;
+  color: #3f51b5;
+  font-weight: 600;
+  border: 3px solid black;
+  position: absolute;
+  bottom: 5rem;
+  width: 7.5rem;
+  height: 3rem;
+  right: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.second{
+  right: 6rem;
+}
+.pokemon-box{
+  position: absolute;
+    left: 9.5rem;
+    top: 11rem;
+    width: 11rem;
+    height: 10rem;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    box-sizing:content-box;
+}
+
+h1{
+  width: 100%;
+  line-height: 28px;
+}
+.info{
+  color: black;
+  padding-top: 2rem;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  width: 17rem;
+  height: 11.5rem;
+  margin-left: 28rem;
+  position: absolute;
+  top: 11.5rem;
+}
+
+
+
